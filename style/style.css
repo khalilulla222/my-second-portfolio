@@ -38,4 +38,101 @@ border: none;
 }
 main{
     margin: 0px 230px;
+    
+}
+.first-container{
+    display: flex;
+    gap: 130px;
+    margin-top: 100px;
+    
+   
+}
+.second-container{
+    margin-top: 50px;
+}
+.person-image{
+    width: 421px;
+    height: 500px;
+
+}
+.order-list{
+    padding-left: 0px;
+    color: var(--Dark-02, #444343);
+font-size: 16px;
+font-weight: 400;
+}
+.head{
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
+.paragraph{
+    color: var(--Dark-02, #444343);
+font-size: 16px;
+font-weight: 400;
+}
+.my-plans-container{
+    margin-top:60px ;
+    text-align: center;
+    
+}
+.my-plans{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.watch-container{
+    width: 980px;
+    height: 300px;
+    border-radius: 7px;
+    background-image:url(../images/gradient2.png), url(../images/watch.png);
+    padding-left: 64px;
+    
+}
+.watch{
+    padding-top: 60px;
+    color: white;
+}
+.button-secondary{
+    width: 160px;
+height: 64px;
+color: orangered;
+font-size: 20px;
+font-weight: 600;
+border-radius: 5px;
+background: white;
+border: none;
+
+}
+
+footer{
+    margin-top: 130px;
+    width: 1500px;
+height: 500px;
+background: var(--Dark-01, #151414);
+
+}
+.footer-primary{
+    color: #FFF;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+
+}
+.input{
+    width: 325px;
+height: 64px;
+border-radius: 8px;
+border: 1px solid #FFF;
+color: black;
+margin-bottom: 10px;
+}
+.Subscribe{
+    
+}
+a{
+   text-decoration: none;
+   color: white;
+   cursor:alias;
 }
